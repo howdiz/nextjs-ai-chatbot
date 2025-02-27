@@ -16,24 +16,24 @@ interface SuggestedActionsProps {
 function PureSuggestedActions({ chatId, append }: SuggestedActionsProps) {
   const suggestedActions = [
     {
-      title: 'What are the advantages',
-      label: 'of using Next.js?',
-      action: 'What are the advantages of using Next.js?',
+      title: 'Analyze Core Web Vitals',
+      label: 'How can I improve my website speed?',
+      action: 'How can I improve my website\'s Core Web Vitals and loading performance?',
     },
     {
-      title: 'Write code to',
-      label: `demonstrate djikstra's algorithm`,
-      action: `Write code to demonstrate djikstra's algorithm`,
+      title: 'SEO Optimization',
+      label: 'Help me rank better in search results',
+      action: 'What are the key SEO factors I should focus on to improve my website\'s search rankings?',
     },
     {
-      title: 'Help me write an essay',
-      label: `about silicon valley`,
-      action: `Help me write an essay about silicon valley`,
+      title: 'Accessibility Check',
+      label: 'Is my site WCAG compliant?',
+      action: 'What are the essential WCAG guidelines I need to follow for better web accessibility?',
     },
     {
-      title: 'What is the weather',
-      label: 'in San Francisco?',
-      action: 'What is the weather in San Francisco?',
+      title: 'Conversion Optimization',
+      label: 'Improve conversion rates',
+      action: 'How can I optimize my website to increase conversion rates and user engagement?',
     },
   ];
 
